@@ -9,4 +9,4 @@ sed -i "s|Exec=kitty|Exec=$(readlink -f ~)/.local/kitty.app/bin/kitty|g" ~/.loca
 echo 'kitty.desktop' > ~/.config/xdg-terminals.list
 ```
 ###### !!! Create fithub repo for config
-path to config = /home/$(whoami)/.config/kitty/kitty.conf
+path to config = `/home/$(whoami)/.config/kitty/kitty.conf`
